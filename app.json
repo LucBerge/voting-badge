@@ -7,5 +7,6 @@
     "env": {
         "BUILDPACK_URL": "https://github.com/mojodna/heroku-buildpack-multi.git#build-env"
     },
-    "addons": ["redistogo:nano"]
+    "addons": ["redistogo:nano"],
+	"stack": "heroku-18"
 }
